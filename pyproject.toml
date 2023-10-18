@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "test-aliceb08-package"
+version = "0.1.0"
+description = ""
+authors = ["Alice Breton <alice@cit.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
